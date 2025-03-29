@@ -1,0 +1,140 @@
+/* FraudScanner.css */
+
+body {
+    /* font-family: "Arial", sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .scanner-container {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 500px;
+    /* height: 700px; */
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .input-box {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #2a2a2a;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .scan-button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .scan-button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  }
+  
+  .result-page {
+    margin-top: 20px;
+  }
+  
+  .result-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  .contract-address {
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 10px;
+  }
+  
+  .chart-container {
+    margin: 20px auto;
+    background: #282828;
+    padding: 15px;
+    border-radius: 8px;
+    /* height: 500px; */
+  }
+  
+  .overall-risk {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .decision {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .high-risk {
+    background-color: #ff4b2b;
+    color: white;
+  }
+  
+  .low-risk {
+    background-color: #2bff89;
+    color: black;
+  }
+  
+  .scan-again {
+    margin-top: 15px;
+    background: #444;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .scan-again:hover {
+    background: #666;
+  }
+  
+  .network-dropdown {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 6px;
+    background: #2a2a2a;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .network-dropdown:hover {
+    border-color: #ff4b2b;
+  }
+  
+  .network-dropdown option {
+    background: #2a2a2a;
+    color: #ffffff;
+  }
+  
